@@ -1,6 +1,6 @@
 ## LMS Question Generator – Lucas Ralph, Charlie Matoon – CSCI 5801
 
-This project is a Python-based tool designed to process source code files and generate LMS-compatible questions (e.g., multiple choice or fill-in-the-blank). While some functionality is still in development, the tool lays the foundation for automated question generation based on code analysis.
+This project is a Python-based tool designed to process source code files and generate LMS-compatible questions (e.g., multiple choice or fill-in-the-blank). While some functionality is still in development, the tool lays the foundation for automated question generation based on code analysis. This uses pytest for testing suite
 
 ### How to Run
 Ensure you have Python 3 installed.
@@ -16,13 +16,13 @@ python3 view.py
 
 ### Interactive Steps
 After launching, follow the on-screen prompts:
-
+```bash
 Enter the filename (e.g., tester.txt)
 
 LMS Type / Question Type
 
 Input mc for Multiple Choice or fib for Fill in the Blank
-
+```
 Note: Currently a placeholder for future versions
 
 Number of Questions
