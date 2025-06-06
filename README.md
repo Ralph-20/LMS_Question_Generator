@@ -1,23 +1,67 @@
-# 5801_G27_P1
-5801 Project 1 Group 27 
+## LMS Question Generator – Lucas Ralph, Charlie Matoon – CSCI 5801
 
+This project is a Python-based tool designed to process source code files and generate LMS-compatible questions (e.g., multiple choice or fill-in-the-blank). While some functionality is still in development, the tool lays the foundation for automated question generation based on code analysis.
 
-How to Run:
-You must have python3 installed on your computer for this to run.
-With a command line open utilize the cd command until you are in the directory with the source code, 
-make sure the file you would like to read is in the same folder, then run the command "python3 view.py".
+### How to Run
+Ensure you have Python 3 installed.
 
-From this point follow the onscreen instructions, it will ask you to input the file name, for which you will enter 
-the name with the file extension (e.g. tester.txt). Then enter the desired lms type and question type in which you will input either "mc" for multiple choice questions or "fib" for fill in the blank questions, 
-currently these have no impact but are in place for later functionality. From there enter the desired number of questions, 
-as above, this does not currently do anything but is needed for future functionality in the question generation's later versions. You will then be 
-asked if you want to remove comments, respond with either "y" for yes or "n" for no. If yes you will further be asked if 
-you would like comments to be deleted entirely, enter "d", or to combine the comment line with the line of code immediatly following,
-enter "c". You will then be asked if you would like to combine any non-order specific lines of code, enter "n" to skip, 
-otherwise a loop will begin where you will be prompted to enter the start and end lines of any lines to combine, this will 
-continue until a value of "-1" is entered in the start line to end the loop. Regardless of which options are chosen, at the
-end of the function the JSON object with the questions as they are stored will be printed to the terminal (this is temporary 
-to demonstrate functionality until LMS formatting is implemented) .
+Open a terminal and navigate to the directory containing the source code using cd.
 
+Place the file you'd like to read in the same folder.
 
-Link to Sprint Meeting Recordings: https://drive.google.com/file/d/1M7e6dM6LncGh5mkD2oU-lnuaU6MSTTA8/view?usp=share_link
+Run the program:
+```bash
+python3 view.py
+```
+
+### Interactive Steps
+After launching, follow the on-screen prompts:
+
+Enter the filename (e.g., tester.txt)
+
+LMS Type / Question Type
+
+Input mc for Multiple Choice or fib for Fill in the Blank
+
+Note: Currently a placeholder for future versions
+
+Number of Questions
+
+Also a placeholder for future versions
+
+Remove Comments?
+
+Enter y (yes) or n (no)
+
+If Yes, Choose:
+
+d to delete comment lines entirely
+
+c to combine each comment with the following line of code
+
+Combine Non-Sequential Code Lines?
+
+Enter n to skip
+
+Or enter start and end line numbers to combine them
+
+Enter -1 to exit this loop
+
+Once complete, the tool prints a JSON object of the generated questions to the terminal. This is a temporary output to demonstrate core functionality before full LMS formatting is implemented.
+
+### Status & Planned Features
+✅ Comment parsing and optional removal
+
+✅ Basic interactive CLI
+
+❌ LMS export formatting (coming soon)
+
+❌ Intelligent question generation
+
+📼 Sprint Meeting Recordings
+View Meeting Recordings: https://drive.google.com/file/d/1M7e6dM6LncGh5mkD2oU-lnuaU6MSTTA8/view?usp=share_link
+
+### Contributors
+Group 27 – CSCI 5801
+University of Minnesota
+Lucas Ralph, Charlie Matoon
